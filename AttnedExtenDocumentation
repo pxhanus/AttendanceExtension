@@ -1,0 +1,31 @@
+### Searching for documentation on how to make a chrome extension 
+### Downloaded example files to edit.
+### reading examples/using code from: https://developer.chrome.com/extensions/getstarted and http://www.sitepoint.com/create-chrome-extension-10-minutes-flat/
+### Used Favicon from site for extension icon
+### Can *only* use .PNG for extension icon
+### Converted .ICO to .PNG
+6/09/2015
+### Added simple submit button, need to adjust Friday
+6/12/2015
+### Login page is made, just using "action_page.php" as "form action" for now.
+### Made .CSS file for style
+6/16/15
+var data = {
+	
+}
+
+### <form> tag appeared to keep from redirecting to "attendance.html" *!TO-DO!* figure out how to post and get form data
+6/19/2015
+### Redirect to Sycamore site works
+### Today focus on "attendance.html"
+6/26/2015
+### List is loading into table
+### Need a charset for special characters
+###ANSI isn't working
+7/17/2015
+###ANSI hasn't started magically working
+###Changed "select id" to "select class"
+###List disappeared
+###??????
+###Changed back to "select id"
+###Changed "option value" to "option id" so I could add "option value = '0'"
