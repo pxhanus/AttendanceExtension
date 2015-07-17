@@ -1,0 +1,30 @@
+body {
+    min-width: 400px;
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    background: #00aa00;
+    color: white;
+}
+input {
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+span>* {
+    display: inline;
+}
+li {
+    list-style: none;
+    padding: 0.2em;
+    bottom-margin: 1em;
+    background-color: darkgreen;
+}
+select {
+    float: right;
+}
+form #submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
