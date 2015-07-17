@@ -1,0 +1,42 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+
+  </head>
+  <body>
+    <h1>Sycamore Education: Attendance</h1>
+    <!--new code-->
+    <!DOCTYPE html>
+<html>
+<body>
+
+<!--<form action="action_page.php" method="POST"> --> <!-- Where getting data from -->
+  <fieldset>
+    <legend>Credentials:</legend>
+<input type="text" name="schoolid" placeholder="School ID">
+<br>
+<input type="text" name="username" placeholder="Username">
+<br>
+<input type="password" name="password" placeholder="Password" autocomplete="off">
+<br><br>
+<a href="attendance.html"><input type="submit" value="Log In"></a></fieldset>
+<!--</form> -->
+
+<!--If you click "Log In", the form-data will be sent to a page called "action_page.php".-->
+
+</body>
+</html>
