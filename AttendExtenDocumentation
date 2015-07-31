@@ -29,3 +29,13 @@ var data = {
 ###??????
 ###Changed back to "select id"
 ###Changed "option value" to "option id" so I could add "option value = '0'"
+7/21/2015
+###ddv is the given dropdown value
+###theMagicalValueOfEpicness is the magical value of epicneess...very self explanatory
+7/24/2015
+###<Sebastian>Wasn't selecting the dropdown correctly. Added [0] in loadAttendance loop to get first element returned in list. </Sebastian>
+###add theMagicalValueOfEpicness to submit function
+###add function to format data for submitting to API
+###add text input for comments
+7/31/2015
+###Right now comments only save automatically if presence is also changed. Will move into seperate change loop to fix.
